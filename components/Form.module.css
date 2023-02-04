@@ -1,0 +1,118 @@
+.container {
+    width: 50%;
+    margin: auto;
+    padding-top: 13rem;
+    font-family: 'Inter';
+  }
+  
+  .container h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: -75px;
+    text-align: center;
+    color: black;
+  }
+  
+  .container form {
+    padding: 100px;
+    border-radius: 30px;
+    background:lightgray;
+    position: absolute;
+    z-index: 9;
+  }
+  
+  .inputBox :is(input, textarea) {
+    font-size: 20px;
+    width: 400px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid white;  
+    border-radius: 20px;
+  }
+  .inputBox1 :is(input, textarea) {
+    font-size: 20px;
+    width: 900px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid white;  
+    border-radius: 20px;
+  }
+  
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  .inputBox input::placeholder {
+    color: #070707;
+    opacity: 80%;
+  }
+  
+  /* Internet Explorer 10-11 */
+  .inputBox input:-ms-input-placeholder {
+    color: white;
+    opacity: 80%;
+  }
+  
+  /* Microsoft Edge */
+  .inputBox input::-ms-input-placeholder {
+    color: white;
+    opacity: 80%;
+  }
+  
+  .inputBox textarea::placeholder {
+    color: white;
+    opacity: 80%;
+  }
+  
+  .inputBox textarea:-ms-input-placeholder {
+    color: white;
+    opacity: 80%;
+  }
+  
+  .inputBox textarea::-ms-input-placeholder {
+    color: white;
+    opacity: 80%;
+  }
+  
+  .inputBox input[type="submit"] {
+    width: 25%;
+    background-color:white;
+    border: 2px solid black;
+    padding: 14px 20px;
+    margin: 8px 0 0 26.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .inputBox input[type="submit"]:hover {
+    background-color: gray;
+    border: 2px solid black;
+  }
+  
+  .flexBox1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-right: 75px;
+  }
+
+  .flexBox2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-right: 75px;
+  }
+
+  .flexBox4 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-right: 75px;
+  }
+
+.flexBox5 {
+  margin-top: -150px;
+  margin-left: 150px;
+}
+
+
+
+
+  
